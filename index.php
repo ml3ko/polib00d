@@ -42,6 +42,7 @@ if($conn->connect_error){
 
         $mailchk = "SELECT * FROM users WHERE email = '$email'";
         $chkmail = $conn->query($mailchk);
+        $row = $chkmail->fetch_assoc()'
         if($email == $row['email']){
 
         }

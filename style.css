@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ddd;
+}
+
+
+.main_block{
+    width: 700px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px ;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+@media screen and (max-width: 1000px){
+    .main_block{
+        width: calc(100vw - 40px);
+        height: calc(100vh - 40px);
+        background-color: #fff;
+        border-radius: 0px ;
+    }
+}
+
+.center_cont form{
+    margin: 30px 0 ;
+
+}
+.center_cont input{
+    padding: 10px 20px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #aaa;
+}
+.center_cont{
+    width: 50%;
+    margin: auto;
+}
+.main_block input[type=checkbox]{
+    width: 30px;
+}
+.main_block input[type=submit]{
+    width: 50%;
+    transition: all 0.5s ease-in-out;
+    background-color: #fff;
+    border: #aaa 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+}
+.main_block input[type=submit]:hover{
+    width: 50%;
+    transition: all 0.5s ease-in-out;
+    color: #ccc;
+    background-color: #333;
+    border: #aaa 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+}
